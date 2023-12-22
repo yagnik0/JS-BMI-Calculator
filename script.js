@@ -4,7 +4,7 @@ const reset = document.querySelector('.reset')
 const heightInput = document.querySelector('#height')
 const weightInput = document.querySelector('#weight')
 const result = document.querySelector('#result')
-// This usecase will give you empty value because we want to extract value  from eventlistener in it
+// This usecase will give you empty value because we want to extract value from eventlistener in it
 // const height= parseInt(document.querySelector('#height').value)
 
 form.addEventListener('submit',function(e){
